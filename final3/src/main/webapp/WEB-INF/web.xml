@@ -1,0 +1,19 @@
+<web-app>
+  <display-name>final3</display-name>
+  <servlet>
+  	<servlet-name>HomeControl</servlet-name>
+  	<display-name>HomeControl</display-name>
+  	
+  	<description></description>
+  	<servlet-class>control.HomeControl</servlet-class>
+  </servlet>
+ <servlet-mapping>
+  	<servlet-name>HomeControl</servlet-name>
+  	<url-pattern>/Home</url-pattern>
+  </servlet-mapping> 
+   <welcome-file-list>
+   <welcome-file>Home</welcome-file>
+  	<welcome-file>Home.jsp</welcome-file>
+  </welcome-file-list>
+  
+</web-app>
